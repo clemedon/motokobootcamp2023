@@ -5,10 +5,11 @@ import List "mo:base/List";
 actor {
 
   type Book = Book.Book;
+  type List<T> = List.List<T>;
 
   // 6. list that stores books
 
-  var book_list : List.List<Book> = List.nil<Book>();
+  var book_list : List<Book> = List.nil<Book>();
 
   // 7. takes a book as parameter and add it to your list
 
