@@ -8,7 +8,7 @@ actor {
 
   // 6. list that stores books
 
-  var book_list = List.nil<Book>();
+  var book_list : List.List<Book> = List.nil<Book>();
 
   // 7. takes a book as parameter and add it to your list
 
